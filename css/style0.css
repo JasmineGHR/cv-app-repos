@@ -1,0 +1,121 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cv {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+#profile-summary-title {
+    color: #555;
+    padding: 2px;
+    font-size: 25px; 
+   
+}
+
+
+.profile-picture {
+    width: 170px;
+    height: 175px;
+    border-radius: 60%;
+    margin-bottom: 20px;
+}
+
+
+.contact-info .name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-info span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item .degree-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+
+.professional-summary span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.skill-item {
+    margin-bottom: 15px;
+}
+
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item .title {
+    font-weight: bold;
+}
+
+
+.soft-skills span {
+    display: block;
+    margin-bottom: 15px;
+}
+.languages span  {
+    margin-left: 40px;
+}
+.languages .language {
+    margin-left: 40px;
+    display: block;
+}

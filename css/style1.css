@@ -1,0 +1,144 @@
+/* styles1.css i am here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+#cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px; /* Ajoutez une marge supérieure pour déplacer les CVs vers le bas */
+}
+.cv-container {  
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cv-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-column {
+    width: 30%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+
+.left-column img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.left-column .contact-info {
+    margin-bottom: 20px;
+}
+
+.left-column .name {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.left-column span {
+    display: block;
+    margin: 5px 0;
+}
+
+.languages {
+    margin-top: 20px;
+}
+
+.languages .section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+.right-column .section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    display: block;
+    font-size: 20px;
+}
+
+.right-column span {
+    display: block;
+    margin: 5px 0;
+}
+
+.professional-summary,
+.education,
+.technology-skills,
+.experiences,
+.soft-skills {
+    margin-bottom: 20px;
+}
+
+.education .degree {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.experiences .experience {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.experiences .projet {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.degree-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+.year {
+    font-style: italic;
+}
+
+
+.cv-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#navigation-buttons {
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,91 @@
+/* styles2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    background-color: #3498db; /* Couleur de la première section */
+    color: #fff;
+    padding: 20px;
+}
+
+.main-section {
+    background-color: #fff; /* Couleur de la deuxième section */
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info .name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact-info span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item .degree-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.professional-summary span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.skill-item {
+    margin-bottom: 15px;
+}
+
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item .title {
+    font-weight: bold;
+}
+
+
+.soft-skills span {
+    display: block;
+    margin-bottom: 15px;
+}

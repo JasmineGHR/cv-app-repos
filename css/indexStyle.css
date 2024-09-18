@@ -1,0 +1,96 @@
+/* Style pour le conteneur principal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5d7e2;
+}
+.links{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    row-gap: 10px;
+    margin-top: 100px;
+}
+.link-btn{
+    border: 1px solid rgb(26, 122, 187);
+    background-color: rgb(26, 122, 187);
+    padding: 20px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Ombre */
+    transition: box-shadow 0.3s ease; /* Transition douce lors du survol */
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* Ombre plus intense au survol */
+}
+
+/* Style pour les boutons */
+/* CSS pour positionner la classe search en haut de la page */
+.search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* couleur de fond */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ombre */
+    z-index: 999; /* assure que la barre de recherche est au-dessus de tout le contenu */
+}
+
+/* CSS pour positionner le bouton "Créer un nouveau CV" dans le coin supérieur droit */
+.create {
+    position: fixed;
+    top: 10px; /* ajustez la position verticale selon vos besoins */
+    right: 10px; /* ajustez la position horizontale selon vos besoins */
+    background-color: rgb(26, 122, 187); /* couleur de fond */
+    color: #fff; /* couleur du texte */
+    padding: 10px 20px;
+    border-radius: 5px; /* bord arrondi */
+    cursor: pointer;
+    z-index: 999; /* assure que le bouton est au-dessus de tout le contenu */
+}
+
+/* Style de survol pour le bouton "Créer un nouveau CV" */
+.create:hover {
+    background-color: #0056b3; /* couleur de fond au survol */
+}
+
+
+/* Style pour le conteneur des CV */
+/*#cv-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ Style pour les CV individuels 
+.cv {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}*/
+
+/* Style pour le contenu de chaque CV 
+.cv-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Style pour les liens dans le contenu des CV 
+.cv-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cv-content a:hover {
+    text-decoration: underline;
+}*/

@@ -1,0 +1,149 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+#cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px; /* Ajoutez une marge supérieure pour déplacer les CVs vers le bas */
+}
+
+/* Style pour chaque CV */
+.cv-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cv-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Colonnes */
+.left-column, .right-column {
+    padding: 20px;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.right-column {
+    text-align: left;
+}
+
+/* Image du profil */
+.profile-picture {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+/* Informations du profil */
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.birthdate, .phone, .email, .address, .linkedin, .github {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Langues */
+.languages .language {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Éducation */
+.education .education-item {
+    margin: 10px 0;
+}
+
+.degree-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+.year {
+    font-style: italic;
+}
+
+.organisation {
+    font-size: 14px;
+}
+
+/* Compétences techniques */
+.technology-skills .skill-item {
+    margin: 5px 0;
+}
+
+.skill-title {
+    font-size: 14px;
+}
+
+/* Expériences */
+.experiences .experience-item {
+    margin: 10px 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.description {
+    margin: 5px 0;
+}
+
+.technologies {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Soft Skills */
+.soft-skills {
+    margin: 10px 0;
+}
+
+/* Style pour le résumé professionnel */
+.profile-summary {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-summary-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-summary-content {
+    font-size: 14px;
+}
